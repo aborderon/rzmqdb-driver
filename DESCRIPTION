@@ -1,0 +1,26 @@
+Package: rzmqdb.driver
+Type: Package
+Title: R ZeroMQ Database Driver
+Version: 0.0.0
+Author: Adrien Borderon
+Maintainer: The package maintainer <borderon.adrien@gmail.com>
+Description: R ZeroMQ Database Driver
+License: Unlimited
+Encoding: UTF-8
+LazyData: true
+Imports: 
+  curl (>= 2.6.9000),
+  protolite,
+  futile.logger,
+  config,
+  R6,
+  stringr,
+  uuid,
+  fst,
+  RCurl,
+  dplyr,
+  rzmq,
+  lubridate,
+Suggests: 
+    testthat
+RoxygenNote: 7.0.2
