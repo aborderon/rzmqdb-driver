@@ -16,6 +16,15 @@ library(UUIDgenerate)
 ```
 
 ### Define environment variables
+
+>**environmentId** : The environnement who contains informations of one document
+
+>**documentId** : The document who contains informations of multiple values
+
+>**key** : The key of one value
+
+>**value** : The value to insert
+
 ```
 environmentId <- uuid::UUIDgenerate()
 documentId <- "doc1"
