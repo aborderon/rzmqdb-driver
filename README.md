@@ -1,5 +1,6 @@
 # rzmqdb-driver
-R ZeroMQ Database Driver
+R ZeroMQ Database Driver for [R ZeroMQ Database](https://github.com/aborderon/rzmqdb).
+
 
 ## Overview
 R ZeroMQ Database provides a quick, easy and flexible way to store data in-memory.
