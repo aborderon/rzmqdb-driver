@@ -8,6 +8,35 @@ R ZeroMQ Database provides a quick, easy and flexible way to store data in-memor
 Rzmqdb uses [fst](https://www.fstpackage.org/) to compress data. 
 > The fst package for R provides a fast, easy and flexible way to serialize data frames. With access speeds of multiple GB/s, fst is specifically designed to unlock the potential of high speed solid state disks that can be found in most modern computers. Data frames stored in the fst format have full random access, both in column and rows.
 
+## Build from source
+
+> See the [rzmq](https://github.com/ropensci/rzmq) package for more details.
+
+Installation from source requires [`ZeroMQ`](http://zeromq.org/area:download). On __Debian__ or __Ubuntu__ use [libzmq3-dev](https://packages.debian.org/testing/libzmq3-dev):
+
+```
+sudo apt-get install -y libzmq3-dev
+```
+
+On __Fedora__ we need [zeromq-devel](https://apps.fedoraproject.org/packages/zeromq-devel):
+
+```
+sudo yum install zeromq-devel
+```
+
+On __CentOS / RHEL__ we install [zeromq3-devel](https://apps.fedoraproject.org/packages/zeromq3-devel) via EPEL:
+
+```
+sudo yum install epel-release
+sudo yum install zeromq3-devel
+```
+
+On __OS-X__ use [zeromq](https://github.com/Homebrew/homebrew-core/blob/master/Formula/zeromq.rb) from Homebrew:
+
+```
+brew install zeromq
+```
+
 ## Use rzmqdb-driver
 
 ### Load rzmqdb-driver
